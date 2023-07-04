@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/app.js" defer></script>
+  <title>Evdy Commerce</title>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        Evdy Commerce
+      </div>
+
+      <div class="header__nav">
+        <nav class="header__dropdowns">
+          <ul class="header__dropdown-list">
+
+            <li class="header__dropdown">
+              <a href="#" class="header__link active">Home</a>
+              <span class="header__drop-icon"></span>
+            </li>
+
+            <li class="header__dropdown">
+              <a href="#" class="header__link">Shop</a>
+              <span class="header__drop-icon"></span>
+            </li>
+
+            <li class="header__dropdown">
+              <a href="#" class="header__link">Product</a>
+              <span class="header__drop-icon"></span>
+            </li>
+
+            <li class="header__dropdown">
+              <a href="#" class="header__link">Blog</a>
+              <span class="header__drop-icon"></span>
+            </li>
+
+            <li class="header__dropdown">
+              <a href="#" class="header__link">Page</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <ul class="header__actions">
+          <li class="header__action">
+            <button class="header__btn">
+              <svg class="header__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black"
+                   xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" fill="#F5F5F5"/>
+                <g id="Landing" clip-path="url(#clip0_5_91)">
+                  <rect width="1920" height="5119" transform="translate(-1408 -40)" fill="white"/>
+                  <g id="Header / Default">
+                    <rect id="Rectangle 33" x="-1408" y="-40" width="1920" height="104" fill="white"/>
+                    <g id="Frame 7">
+                      <g id="search">
+                        <path id="Vector"
+                              d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                              stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path id="Vector_2" d="M21 21L16.65 16.65" stroke="black" stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <defs>
+                  <clipPath id="clip0_5_91">
+                    <rect width="1920" height="5119" fill="white" transform="translate(-1408 -40)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+
+            </button>
+          </li>
+
+          <li class="header__action">
+            <button class="header__btn">
+              <svg class="header__icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                   width="24">
+                <path d="M222-255q63-44 125-67.5T480-346q71 0 133.5 23.5T739-255q44-54 62.5-109T820-480q0-145-97.5-242.5T480-820q-145 0-242.5 97.5T140-480q0 61 19 116t63 109Zm257.814-195Q422-450 382.5-489.686q-39.5-39.686-39.5-97.5t39.686-97.314q39.686-39.5 97.5-39.5t97.314 39.686q39.5 39.686 39.5 97.5T577.314-489.5q-39.686 39.5-97.5 39.5Zm.654 370Q398-80 325-111.5q-73-31.5-127.5-86t-86-127.266Q80-397.532 80-480.266T111.5-635.5q31.5-72.5 86-127t127.266-86q72.766-31.5 155.5-31.5T635.5-848.5q72.5 31.5 127 86t86 127.032q31.5 72.532 31.5 155T848.5-325q-31.5 73-86 127.5t-127.032 86q-72.532 31.5-155 31.5ZM480-140q55 0 107.5-16T691-212q-51-36-104-55t-107-19q-54 0-107 19t-104 55q51 40 103.5 56T480-140Zm0-370q34 0 55.5-21.5T557-587q0-34-21.5-55.5T480-664q-34 0-55.5 21.5T403-587q0 34 21.5 55.5T480-510Zm0-77Zm0 374Z"/>
+              </svg>
+            </button>
+          </li>
+
+          <li class="header__action">
+            <button class="header__btn">
+              <svg class="header__icon" stroke="black" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <g id="heart">
+                  <path id="Vector"
+                        d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L4.22 13.45L12 21.23L19.78 13.45L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999V4.60999Z"
+                        stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+
+            </button>
+          </li>
+
+          <li class="header__action">
+            <button class="header__btn">
+              <svg class="header__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <g id="shopping-cart">
+                  <path id="Vector"
+                        d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z"
+                        stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path id="Vector_2"
+                        d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z"
+                        stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path id="Vector_3"
+                        d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6"
+                        stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <button class="header__hamburger-menu">
+        <span class="header__hamburger-bar"></span>
+      </button>
+
+      <div class="header__mobile-nav">
+        <nav class="header__dropdowns header__dropdowns--mobile">
+          <ul class="header__dropdown-list header__dropdown-list--mobile">
+
+            <li class="header__dropdown header__dropdown--mobile">
+              <a href="#" class="header__link header__link--mobile active">Home</a>
+              <span class="header__drop-icon header__drop-icon--mobile"></span>
+            </li>
+
+            <li class="header__dropdown header__dropdown--mobile">
+              <a href="#" class="header__link header__link--mobile">Shop</a>
+              <span class="header__drop-icon header__drop-icon--mobile"></span>
+            </li>
+
+            <li class="header__dropdown header__dropdown--mobile">
+              <a href="#" class="header__link header__link--mobile">Product</a>
+              <span class="header__drop-icon header__drop-icon--mobile"></span>
+            </li>
+
+            <li class="header__dropdown header__dropdown--mobile">
+              <a href="#" class="header__link header__link--mobile">Blog</a>
+              <span class="header__drop-icon header__drop-icon--mobile"></span>
+            </li>
+
+            <li class="header__dropdown header__dropdown--mobile">
+              <a href="#" class="header__link header__link--mobile">Page</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <ul class="header__actions header__actions--mobile">
+          <li class="header__action">
+            <button class="header__btn">
+              <svg class="header__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" fill="none"/>
+                <g id="Landing" clip-path="url(#clip0_5_91)">
+                  <rect width="1920" height="5119" transform="translate(-1408 -40)" fill="none"/>
+                  <g id="Header / Default">
+                    <rect id="Rectangle 33" x="-1408" y="-40" width="1920" height="104" fill="none"/>
+                    <g id="Frame 7">
+                      <g id="search">
+                        <path id="Vector"
+                              d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                              stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path id="Vector_2" d="M21 21L16.65 16.65" stroke="white" stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <defs>
+                  <clipPath id="clip0_5_91">
+                    <rect width="1920" height="5119" fill="white" transform="translate(-1408 -40)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+
+            </button>
+          </li>
+
+          <li class="header__action">
+            <button class="header__btn">
+              <svg class="header__icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                   width="24">
+                <path fill="white" stroke="white"
+                      d="M222-255q63-44 125-67.5T480-346q71 0 133.5 23.5T739-255q44-54 62.5-109T820-480q0-145-97.5-242.5T480-820q-145 0-242.5 97.5T140-480q0 61 19 116t63 109Zm257.814-195Q422-450 382.5-489.686q-39.5-39.686-39.5-97.5t39.686-97.314q39.686-39.5 97.5-39.5t97.314 39.686q39.5 39.686 39.5 97.5T577.314-489.5q-39.686 39.5-97.5 39.5Zm.654 370Q398-80 325-111.5q-73-31.5-127.5-86t-86-127.266Q80-397.532 80-480.266T111.5-635.5q31.5-72.5 86-127t127.266-86q72.766-31.5 155.5-31.5T635.5-848.5q72.5 31.5 127 86t86 127.032q31.5 72.532 31.5 155T848.5-325q-31.5 73-86 127.5t-127.032 86q-72.532 31.5-155 31.5ZM480-140q55 0 107.5-16T691-212q-51-36-104-55t-107-19q-54 0-107 19t-104 55q51 40 103.5 56T480-140Zm0-370q34 0 55.5-21.5T557-587q0-34-21.5-55.5T480-664q-34 0-55.5 21.5T403-587q0 34 21.5 55.5T480-510Zm0-77Zm0 374Z"/>
+              </svg>
+            </button>
+          </li>
+
+          <li class="header__action">
+            <button class="header__btn">
+              <svg class="header__icon" stroke="white" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <g id="heart">
+                  <path id="Vector"
+                        d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L4.22 13.45L12 21.23L19.78 13.45L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999V4.60999Z"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+
+            </button>
+          </li>
+
+          <li class="header__action">
+            <button class="header__btn">
+              <svg class="header__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <g id="shopping-cart">
+                  <path id="Vector"
+                        d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path id="Vector_2"
+                        d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path id="Vector_3"
+                        d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+
+            </button>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</header>
+<!-- HEADER -->
+
+<section class="main">
+  <div class="container">
+
+    <div class="main__inner">
+
+      <div class="main__slider">
+        <button class="main__slider-btn main__slider-btn--left btn btn--grey-transparent"><img
+                src="img/main/left.png" alt="Left arrow"></button>
+        <div class="main__slider-content">
+
+          <div class="main__slider-texts">
+            <h1 class="main__slider-heading">
+              choose your shoes with us.
+            </h1>
+            <p class="main__slider-text">
+              We will help you to choose the product that without the doubt suits you best. And we mean it
+            </p>
+            <button class="main__slider-btn btn btn--grey">
+              Read More
+            </button>
+          </div>
+
+          <div class="main__slider-picture">
+            <img src="img/main/slider_1.png" alt="Shoes" class="main__slider-img">
+          </div>
+
+        </div>
+        <button class="main__slider-btn main__slider-btn--right btn btn--grey-transparent"><img
+                src="img/main/right.png" alt="Right arrow"></button>
+      </div>
+
+      <div class="main__slider-controls">
+        <button class="main__slider-control btn--slider active"></button>
+        <button class="main__slider-control btn--slider"></button>
+        <button class="main__slider-control btn--slider"></button>
+        <button class="main__slider-control btn--slider"></button>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--  MAIN SECTION-->
+
+<section class="shop-by-categories">
+  <div class="container">
+    <div class="shop-by-categories__inner">
+      <h2 class="shop-by-categories__heading">
+        shop by categories
+      </h2>
+      <h3 class="shop-by-categories__subtitle">Pick a category you need</h3>
+
+      <div class="shop-by-categories__cards">
+        <div class="shop-by-categories__card">
+          <img src="img/shop-by-categories/1.png" alt="1" class="shop-by-categories__img">
+          <p class="shop-by-categories__text">
+            <span class="shop-by-categories__type">women</span>
+            <span class="shop-by-categories__quantity">115 products</span>
+          </p>
+        </div>
+
+        <div class="shop-by-categories__card">
+          <img src="img/shop-by-categories/2.png" alt="2" class="shop-by-categories__img">
+          <p class="shop-by-categories__text">
+            <span class="shop-by-categories__type">men</span>
+            <span class="shop-by-categories__quantity">138 products</span>
+          </p>
+        </div>
+
+        <div class="shop-by-categories__card">
+          <img src="img/shop-by-categories/3.png" alt="3" class="shop-by-categories__img">
+          <p class="shop-by-categories__text">
+            <span class="shop-by-categories__type">kids</span>
+            <span class="shop-by-categories__quantity">97 products</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SHOP BY CATEGORIES -->
+
+<section class="our-products">
+  <div class="container">
+    <div class="our-products__inner">
+      <h2 class="our-products__heading">
+        our products
+      </h2>
+
+      <main class="our-products__items">
+        <div class="our-products__product-item">
+          <img src="img/our-products/1.png" alt="1" class="our-products__img">
+          <div class="our-products__description">
+            <h3 class="our-products__brand">Jordan</h3>
+            <h4 class="our-products__name">Air jordan 1 mid</h4>
+            <span class="our-products__price">$120</span>
+          </div>
+          <div class="our-products__actions">
+            <button class="our-products__btn btn btn--black">View product</button>
+          </div>
+        </div>
+
+        <div class="our-products__product-item">
+          <img src="img/our-products/2.png" alt="2" class="our-products__img">
+          <div class="our-products__description">
+            <h3 class="our-products__brand">Nike</h3>
+            <h4 class="our-products__name">Air force 1 ‘07</h4>
+            <span class="our-products__price">$125</span>
+          </div>
+          <div class="our-products__actions">
+            <button class="our-products__btn btn btn--black">View product</button>
+          </div>
+        </div>
+
+        <div class="our-products__product-item">
+          <img src="img/our-products/3.png" alt="3" class="our-products__img">
+          <div class="our-products__description">
+            <h3 class="our-products__brand">Nike</h3>
+            <h4 class="our-products__name">air max 270</h4>
+            <span class="our-products__price">$165</span>
+          </div>
+          <div class="our-products__actions">
+            <button class="our-products__btn btn btn--black">View product</button>
+          </div>
+        </div>
+
+        <div class="our-products__product-item">
+          <img src="img/our-products/4.png" alt="4" class="our-products__img">
+          <div class="our-products__description">
+            <h3 class="our-products__brand">Nike</h3>
+            <h4 class="our-products__name">Air force 1 ‘07</h4>
+            <span class="our-products__price">$114</span>
+          </div>
+          <div class="our-products__actions">
+            <button class="our-products__btn btn btn--black">View product</button>
+          </div>
+        </div>
+
+        <div class="our-products__product-item">
+          <img src="img/our-products/5.png" alt="5" class="our-products__img">
+          <div class="our-products__description">
+            <h3 class="our-products__brand">Nike</h3>
+            <h4 class="our-products__name">Zoom fly 5</h4>
+            <span class="our-products__price">$144</span>
+          </div>
+          <div class="our-products__actions">
+            <button class="our-products__btn btn btn--black">View product</button>
+          </div>
+        </div>
+
+        <div class="our-products__product-item">
+          <img src="img/our-products/6.png" alt="6" class="our-products__img">
+          <div class="our-products__description">
+            <h3 class="our-products__brand">Nike</h3>
+            <h4 class="our-products__name">air max plus</h4>
+            <span class="our-products__price">$189</span>
+          </div>
+          <div class="our-products__actions">
+            <button class="our-products__btn btn btn--black">View product</button>
+          </div>
+        </div>
+
+        <div class="our-products__product-item">
+          <img src="img/our-products/7.png" alt="7" class="our-products__img">
+          <div class="our-products__description">
+            <h3 class="our-products__brand">Converse</h3>
+            <h4 class="our-products__name">chuck 70 canvas</h4>
+            <span class="our-products__price">$90</span>
+          </div>
+          <div class="our-products__actions">
+            <button class="our-products__btn btn btn--black">View product</button>
+          </div>
+        </div>
+
+        <div class="our-products__product-item">
+          <img src="img/our-products/8.png" alt="8" class="our-products__img">
+          <div class="our-products__description">
+            <h3 class="our-products__brand">Jordan</h3>
+            <h4 class="our-products__name">air jordan 7 retro q </h4>
+            <span class="our-products__price">$194</span>
+          </div>
+          <div class="our-products__actions">
+            <button class="our-products__btn btn btn--black">View product</button>
+          </div>
+        </div>
+      </main>
+
+      <div class="our-products__show-more-wrapper">
+        <button class="our-products__show-more btn btn--grey">Show more</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- OUR PRODUCTS -->
+
+<section class="about">
+  <div class="container">
+    <div class="about__inner">
+      <div class="about__left">
+        <img src="img/about/1.png" alt="1" class="about__img">
+      </div>
+      <div class="about__right">
+        <h3 class="about__heading">About Evdy</h3>
+        <p class="about__text">Ut donec suscipit nunc volutpat faucibus. Ut penatibus etiam diam facilisi at nibh nulla
+          auctor lorem. Accumsan vulputate euismod massa sit egestas. Aliquet a scelerisque enim, arcu rutrum adipiscing
+          fringilla risus. Eget fringilla curabitur sed vulputate pretium, habitasse amet. Elementum odio sagittis,
+          interdum elit ipsum. Volutpat erat ac eu aliquam turpis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ABOUT -->
+
+<section class="what-people-say">
+  <div class="container">
+    <div class="what-people-say__inner">
+      <h3 class="what-people-say__heading">what people say about us</h3>
+
+      <div class="what-people-say__slider">
+        <button class="what-people-say__left-arrow">
+          <img src="img/what-people-say/left.png" alt="Left arrow">
+        </button>
+
+        <div class="what-people-say__slider-content">
+          <p class="what-people-say__text">
+            “Eu dolor at venenatis aliquam velit et in consequat. Nam dui pulvinar consequat eleifend malesuada. Eu
+            dolor at venenatis aliquam velit et in consequat. Nam dui pulvinar consequat eleifend malesuada. Eu dolor at
+            venenatis aliquam velit et in consequat. Nam dui pulvinar consequat eleifend malesuada.”
+          </p>
+          <p class="what-people-say__author">
+            -Andrew Charlston
+          </p>
+        </div>
+
+        <button class="what-people-say__right-arrow">
+          <img src="img/what-people-say/right.png" alt="Right arrow">
+        </button>
+      </div>
+
+      <div class="what-people-say__controls">
+        <button class="what-people-say__control btn--slider active">&nbsp;</button>
+        <button class="what-people-say__control btn--slider">&nbsp;</button>
+        <button class="what-people-say__control btn--slider">&nbsp;</button>
+        <button class="what-people-say__control btn--slider">&nbsp;</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- WHAT PEOPLE SAY ABOUT US-->
+
+<section class="partners">
+  <div class="container">
+    <div class="partners__inner">
+      <div class="partners__item">
+        <img src="img/partners/1.png" alt="Partner 1" class="partners__img">
+      </div>
+
+      <div class="partners__item">
+        <img src="img/partners/2.png" alt="Partner 2" class="partners__img">
+      </div>
+
+      <div class="partners__item">
+        <img src="img/partners/3.png" alt="Partner 3" class="partners__img">
+      </div>
+
+      <div class="partners__item">
+        <img src="img/partners/4.png" alt="Partner 4" class="partners__img">
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- PARTNERS -->
+
+<section class="latest-news">
+  <div class="container">
+    <div class="latest-news__inner">
+
+      <div class="latest-news__top-text">
+        <h3 class="latest-news__heading">
+          latest news
+        </h3>
+        <p class="latest-news__text">
+          Nunc rhoncus auctor risus tempor lacus urna, id laoreet sed. Euismod nisl pellentesque risus cursus fringilla
+          tincidunt volutpat, non.
+        </p>
+      </div>
+
+      <div class="latest-news__items">
+
+        <div class="latest-news__item">
+          <div class="latest-news__picture">
+            <img src="img/latest-news/1.png" alt="1" class="latest-news__img">
+          </div>
+
+          <div class="latest-news__item-inner">
+            <span class="latest-news__date">Jan 12, 2021 </span>
+            <h4 class="latest-news__title">Quis egestas consectetur </h4>
+            <button class="latest-news__btn btn btn--white btn--padding-0">Read more
+              <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 5H15M8.875 0.5L15 5L8.875 9.5" stroke="black" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="latest-news__item">
+          <div class="latest-news__picture">
+            <img src="img/latest-news/2.png" alt="2" class="latest-news__img">
+          </div>
+
+          <div class="latest-news__item-inner">
+            <span class="latest-news__date">Jan 12, 2021 </span>
+            <h4 class="latest-news__title">Auctor etiam elit</h4>
+            <button class="latest-news__btn btn btn--white btn--padding-0">Read more
+              <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 5H15M8.875 0.5L15 5L8.875 9.5" stroke="black" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="latest-news__item">
+          <div class="latest-news__picture">
+            <img src="img/latest-news/3.png" alt="3" class="latest-news__img">
+          </div>
+
+          <div class="latest-news__item-inner">
+            <span class="latest-news__date">Jan 12, 2021 </span>
+            <h4 class="latest-news__title">Eu morbi suspendisse</h4>
+            <button class="latest-news__btn btn btn--white btn--padding-0">Read more
+              <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 5H15M8.875 0.5L15 5L8.875 9.5" stroke="black" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-news__slider">
+        <button class="latest-news__slider-btn btn--slider active">&nbsp;</button>
+        <button class="latest-news__slider-btn btn--slider">&nbsp;</button>
+        <button class="latest-news__slider-btn btn--slider">&nbsp;</button>
+        <button class="latest-news__slider-btn btn--slider">&nbsp;</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- LATEST NEWS -->
+
+<section class="instagram">
+  <div class="container">
+    <div class="instagram__inner">
+      <div class="instagram__grid">
+        <div class="instagram__item">
+          <img src="img/instagram/1.png" alt="1 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/2.png" alt="2 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/3.png" alt="3 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/4.png" alt="4 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/5.png" alt="5 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/6.png" alt="6 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/7.png" alt="7 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/8.png" alt="8 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/9.png" alt="9 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/10.png" alt="10 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/11.png" alt="11 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/12.png" alt="12 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/13.png" alt="13 insta" class="instagram__img">
+        </div>
+        <div class="instagram__item">
+          <img src="img/instagram/14.png" alt="14 insta" class="instagram__img">
+        </div>
+      </div>
+
+      <button class="instagram__btn btn btn--white">@evdycommerce
+        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="Group 59">
+            <path id="Vector"
+                  d="M8.49339 4.12085C7.33568 4.12085 6.22538 4.58004 5.40675 5.39739C4.58812 6.21475 4.12822 7.32333 4.12822 8.47924C4.12822 9.63516 4.58812 10.7437 5.40675 11.5611C6.22538 12.3785 7.33568 12.8376 8.49339 12.8376C9.65111 12.8376 10.7614 12.3785 11.58 11.5611C12.3987 10.7437 12.8586 9.63516 12.8586 8.47924C12.8586 7.32333 12.3987 6.21475 11.58 5.39739C10.7614 4.58004 9.65111 4.12085 8.49339 4.12085V4.12085ZM8.49339 11.3097C7.74128 11.3097 7.01997 11.0114 6.48815 10.4804C5.95632 9.94944 5.65754 9.22925 5.65754 8.4783C5.65754 7.72735 5.95632 7.00717 6.48815 6.47617C7.01997 5.94517 7.74128 5.64685 8.49339 5.64685C9.24551 5.64685 9.96682 5.94517 10.4986 6.47617C11.0305 7.00717 11.3292 7.72735 11.3292 8.4783C11.3292 9.22925 11.0305 9.94944 10.4986 10.4804C9.96682 11.0114 9.24551 11.3097 8.49339 11.3097V11.3097Z"
+                  fill="black"/>
+            <path id="Vector_2"
+                  d="M13.0318 4.97674C13.5941 4.97674 14.0499 4.52182 14.0499 3.96066C14.0499 3.39949 13.5941 2.94458 13.0318 2.94458C12.4695 2.94458 12.0137 3.39949 12.0137 3.96066C12.0137 4.52182 12.4695 4.97674 13.0318 4.97674Z"
+                  fill="black"/>
+            <path id="Vector_3"
+                  d="M16.5497 2.92759C16.3312 2.36411 15.9972 1.8524 15.5692 1.42521C15.1412 0.998015 14.6285 0.66476 14.0641 0.446773C13.4036 0.199216 12.7058 0.0653581 12.0004 0.0508981C11.0913 0.0113106 10.8034 0 8.49811 0C6.1928 0 5.89732 -9.48053e-08 4.99578 0.0508981C4.29096 0.0646188 3.59367 0.198504 2.93403 0.446773C2.36944 0.664506 1.85667 0.997671 1.42863 1.42489C1.00058 1.85212 0.666697 2.36396 0.448412 2.92759C0.200421 3.58702 0.0666619 4.28378 0.0528654 4.98802C0.0122723 5.89477 0 6.18225 0 8.48492C0 10.7866 -7.03353e-09 11.0798 0.0528654 11.9818C0.0670258 12.6868 0.200133 13.3825 0.448412 14.0432C0.66731 14.6066 1.00151 15.1183 1.42967 15.5454C1.85782 15.9726 2.37051 16.3059 2.93497 16.524C3.59337 16.7815 4.29094 16.925 4.99767 16.9482C5.90676 16.9877 6.19469 17 8.5 17C10.8053 17 11.1008 17 12.0023 16.9482C12.7076 16.9338 13.4054 16.8003 14.066 16.5532C14.6303 16.3347 15.1427 16.0012 15.5707 15.5739C15.9987 15.1466 16.3328 14.6349 16.5516 14.0715C16.7999 13.4117 16.933 12.7161 16.9471 12.011C16.9877 11.1043 17 10.8168 17 8.51414C17 6.21147 17 5.91927 16.9471 5.01724C16.9361 4.30304 16.8017 3.5961 16.5497 2.92759V2.92759ZM15.3999 11.9121C15.3938 12.4553 15.2945 12.9934 15.1063 13.5031C14.9645 13.8696 14.7475 14.2025 14.4691 14.4802C14.1908 14.758 13.8573 14.9745 13.4901 15.1158C12.9853 15.3029 12.452 15.402 11.9136 15.409C11.0168 15.4504 10.7638 15.4608 8.46413 15.4608C6.1626 15.4608 5.92753 15.4608 5.01372 15.409C4.47555 15.4024 3.94256 15.3032 3.43814 15.1158C3.06967 14.9754 2.73484 14.7592 2.4553 14.4814C2.17577 14.2036 1.95775 13.8703 1.81536 13.5031C1.62981 12.9989 1.53056 12.4671 1.52177 11.93C1.48117 11.0345 1.47173 10.7819 1.47173 8.48586C1.47173 6.18884 1.47173 5.95415 1.52177 5.04081C1.52787 4.49791 1.62717 3.96009 1.81536 3.45071C2.10329 2.70703 2.6933 2.1217 3.43814 1.83705C3.9428 1.65055 4.47565 1.55142 5.01372 1.54391C5.91148 1.50338 6.16354 1.49207 8.46413 1.49207C10.7647 1.49207 11.0007 1.49207 11.9136 1.54391C12.4521 1.55038 12.9854 1.64955 13.4901 1.83705C13.8573 1.97869 14.1907 2.19541 14.469 2.4733C14.7474 2.7512 14.9644 3.08412 15.1063 3.45071C15.2918 3.95493 15.3911 4.48673 15.3999 5.02384C15.4405 5.92022 15.4509 6.17188 15.4509 8.4689C15.4509 10.765 15.4509 11.0119 15.4103 11.913H15.3999V11.9121Z"
+                  fill="black"/>
+          </g>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+<!-- INSTAGRAM -->
+
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter__inner">
+      <div class="newsletter__left">
+        <h5 class="newsletter__heading">our newsletter</h5>
+        <p class="newsletter__text">Subscribe to get more useful information about us and to get you <span
+                class="newsletter__text-highlighted">15% discount</span> off your next purchase </p>
+      </div>
+
+      <div class="newsletter__right">
+        <form class="newsletter__form">
+          <input type="email" placeholder="Enter your e-mail" class="newsletter__input">
+          <button class="newsletter__btn btn btn--red" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- NEWSLETTER -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+
+      <div class="footer__main">
+
+        <div class="footer__col footer__col--1">
+          <h2 class="footer__heading">Evdy Commerce</h2>
+          <p class="footer__text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="footer__links-social">
+            <a href="#" class="footer__link-social">
+              <img src="icons/links.png" alt="Links">
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__col footer__col--2">
+          <div class="footer__heading footer__heading--red">Information</div>
+
+          <div class="footer__links">
+            <a href="#" class="footer__link">About Evdy Commerce</a>
+            <a href="#" class="footer__link">FAQ</a>
+            <a href="#" class="footer__link">Contact us</a>
+          </div>
+
+        </div>
+
+        <div class="footer__col footer__col--3">
+          <div class="footer__heading footer__heading--red">Quick Links</div>
+
+          <div class="footer__links">
+            <a href="#" class="footer__link">Wishlist</a>
+            <a href="#" class="footer__link">Checkout</a>
+            <a href="#" class="footer__link">Cart</a>
+          </div>
+
+        </div>
+
+        <div class="footer__col footer__col--4">
+          <div class="footer__heading footer__heading--red">Information</div>
+
+          <div class="footer__links">
+            <a href="#" class="footer__link">
+              <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="ep:location">
+                  <path id="Vector"
+                        d="M15.625 8.53125C15.625 6.96482 15.0324 5.46254 13.9775 4.3549C12.9226 3.24726 11.4919 2.625 10 2.625C8.50819 2.625 7.07745 3.24726 6.02255 4.3549C4.96766 5.46254 4.37503 6.96482 4.37503 8.53125C4.37503 10.9541 6.22128 14.112 10 17.8946C13.7788 14.112 15.625 10.9541 15.625 8.53125ZM10 19.6875C5.41628 15.3129 3.12503 11.5933 3.12503 8.53125C3.12503 6.61672 3.84936 4.7806 5.13867 3.42682C6.42798 2.07304 8.17667 1.3125 10 1.3125C11.8234 1.3125 13.5721 2.07304 14.8614 3.42682C16.1507 4.7806 16.875 6.61672 16.875 8.53125C16.875 11.5933 14.5838 15.3129 10 19.6875Z"
+                        fill="#EF3636"/>
+                  <path id="Vector_2"
+                        d="M10 10.5C10.4973 10.5 10.9742 10.2926 11.3259 9.92337C11.6775 9.55415 11.875 9.05339 11.875 8.53125C11.875 8.0091 11.6775 7.50835 11.3259 7.13913C10.9742 6.76992 10.4973 6.5625 10 6.5625C9.50275 6.5625 9.02584 6.76992 8.67421 7.13913C8.32257 7.50835 8.12503 8.0091 8.12503 8.53125C8.12503 9.05339 8.32257 9.55415 8.67421 9.92337C9.02584 10.2926 9.50275 10.5 10 10.5ZM10 11.8125C9.17123 11.8125 8.37637 11.4668 7.79032 10.8514C7.20427 10.2361 6.87503 9.40149 6.87503 8.53125C6.87503 7.66101 7.20427 6.82641 7.79032 6.21106C8.37637 5.5957 9.17123 5.25 10 5.25C10.8288 5.25 11.6237 5.5957 12.2097 6.21106C12.7958 6.82641 13.125 7.66101 13.125 8.53125C13.125 9.40149 12.7958 10.2361 12.2097 10.8514C11.6237 11.4668 10.8288 11.8125 10 11.8125Z"
+                        fill="#EF3636"/>
+                </g>
+              </svg>
+
+              2715 Ash Dr. San Jose, South Dakota 83475</a>
+            <a href="#" class="footer__link">
+              <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="cil:phone">
+                  <path id="Vector"
+                        d="M2.44668 3.67699L2.47344 3.65944L5.85597 1.90967L9.50687 7.02091L7.82719 9.37263C7.87745 10.2595 8.23565 11.0963 8.83397 11.7245C9.43229 12.3527 10.2292 12.7288 11.0739 12.7816L13.3136 11.0179L18.1814 14.8513L16.5288 18.3733L16.5149 18.403L16.4981 18.431C16.4099 18.5803 16.2868 18.7033 16.1406 18.7884C15.9943 18.8735 15.8297 18.9179 15.6625 18.9174H14.7896C13.1079 18.9174 11.4427 18.5696 9.88896 17.8938C8.33525 17.2181 6.92351 16.2276 5.73436 14.979C4.5452 13.7304 3.60191 12.2481 2.95835 10.6167C2.31479 8.98526 1.98355 7.23674 1.98355 5.47093V4.55444C1.98302 4.37884 2.0253 4.20602 2.10636 4.05243C2.18743 3.89884 2.30459 3.76959 2.44668 3.67699ZM3.23355 5.47093C3.23355 12.1616 8.41762 17.6049 14.7896 17.6049H15.4959L16.6016 15.248L13.3133 12.6585L11.4826 14.1001H11.2743C10.0273 14.0987 8.83189 13.5779 7.95019 12.6521C7.06848 11.7263 6.57253 10.4711 6.57113 9.16185V8.94311L7.94414 7.02087L5.4782 3.56838L3.23355 4.72957V5.47093Z"
+                        fill="#EF3636"/>
+                </g>
+              </svg>
+              (808) 555-0111</a>
+            <a href="#" class="footer__link">
+              <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="fontisto:email" clip-path="url(#clip0_7_343)">
+                  <path id="Vector"
+                        d="M13.7367 10.479L18.8625 5.803V15.1016L13.7367 10.479ZM7.13167 11.2709L8.93167 12.9115C9.21417 13.1635 9.5825 13.3158 9.985 13.3158H9.99917H9.99833H10.01C10.4133 13.3158 10.7817 13.1626 11.0675 12.9089L11.065 12.9106L12.865 11.27L18.3367 16.2041H1.6625L7.13167 11.2709ZM1.655 4.69437H18.3467L10.3292 12.0059C10.239 12.0807 10.1274 12.1214 10.0125 12.1214H10.0008H10.0017H9.99C9.87466 12.1215 9.76269 12.0805 9.6725 12.005L9.67333 12.0059L1.655 4.69437ZM1.1375 5.80212L6.2625 10.4781L1.1375 15.0981V5.80212ZM19.1375 3.66625C18.9375 3.56125 18.7025 3.5 18.4533 3.5H1.54917C1.30763 3.50006 1.06942 3.55907 0.853333 3.67238L0.8625 3.668C0.603811 3.80197 0.385956 4.00923 0.233545 4.26636C0.0811339 4.5235 0.000239457 4.82026 0 5.12313L0 15.7736C0.00044117 16.2047 0.16371 16.6179 0.453984 16.9227C0.744257 17.2275 1.13783 17.3989 1.54833 17.3994H18.4508C18.8613 17.3989 19.2549 17.2275 19.5452 16.9227C19.8355 16.6179 19.9987 16.2047 19.9992 15.7736V5.12313C19.9992 4.487 19.65 3.93575 19.1417 3.67063L19.1325 3.66625H19.1375Z"
+                        fill="#EF3636"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_7_343">
+                    <rect width="20" height="21" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              evdycommerce@gmail.com</a>
+          </div>
+
+        </div>
+
+      </div>
+      <!--      FOOTER MAIN -->
+      <div class="footer__copy">
+        <p class="footer__copy-text">
+          Copyright © 2023 Evdy Commerce
+        </p>
+
+        <p class="footer__copy-text">
+          All right reserved
+        </p>
+      </div>
+      <!--      FOOTER COPY -->
+    </div>
+  </div>
+</footer>
+<!-- FOOTER -->
+
+</body>
+</html>

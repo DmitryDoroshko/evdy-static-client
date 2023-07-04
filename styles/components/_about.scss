@@ -1,0 +1,58 @@
+@import "variables";
+
+.about {
+  padding: 0 1rem 27.9rem 1rem;
+  background-image: linear-gradient(
+          -11deg,
+          black 0%,
+          black 50%,
+          white 50%
+  );
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__left {
+    width: 100%;
+    max-height: 32.4rem;
+    height: 100%;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    max-width: 57rem;
+    height: auto;
+    object-fit: cover;
+  }
+
+  &__right {
+    height: auto;
+    width: 100%;
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: $color-white-2;
+  }
+
+  &__heading {
+    color: $color-light-red;
+    font-size: 3rem;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+  }
+
+  &__text {
+    color: $color-dark-grey;
+    font-size: 1.6rem;
+    font-family: $font-secondary;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 54rem;
+  }
+}
