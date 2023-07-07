@@ -1147,4 +1147,41 @@ a {
   transform: translate(-5.3rem, -5.3rem);
 }
 
+.cards-white {
+  margin-bottom: 5rem;
+}
+.cards-white__inner {
+  display: flex;
+}
+.cards-white__card {
+  padding: 5rem 3rem;
+}
+.cards-white__card:not(:last-child) {
+  border-right: 1px solid #989898;
+}
+.cards-white__icon {
+  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 6.7rem;
+}
+.cards-white__heading {
+  color: #ef3636;
+  font-family: "Barlow", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+.cards-white__text {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */
