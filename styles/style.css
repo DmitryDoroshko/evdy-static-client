@@ -430,6 +430,10 @@ a {
   background-image: linear-gradient(-11deg, white 0%, white 50%, black 50%);
   margin-bottom: 10rem;
 }
+.shop-by-categories--light-grey {
+  background: #F6F6F6;
+  max-height: 68.5rem;
+}
 @media only screen and (max-width: 37.5em) {
   .shop-by-categories {
     max-height: fit-content;
@@ -437,6 +441,9 @@ a {
 }
 .shop-by-categories__inner {
   padding: 10rem 1rem 0 1rem;
+}
+.shop-by-categories__inner--pb-5 {
+  padding: 10rem 1rem 5rem 1rem;
 }
 @media only screen and (max-width: 37.5em) {
   .shop-by-categories__inner {
@@ -465,6 +472,9 @@ a {
 .shop-by-categories__cards {
   display: flex;
   width: 100%;
+}
+.shop-by-categories__cards--mb-5 {
+  margin-bottom: 5rem;
 }
 @media only screen and (max-width: 37.5em) {
   .shop-by-categories__cards {
