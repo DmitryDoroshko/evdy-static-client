@@ -3,6 +3,7 @@
 .main-secondary {
   position: relative;
   min-height: 23rem;
+  z-index: 5;
 
   &__img {
     position: absolute;

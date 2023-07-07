@@ -16,6 +16,10 @@
             black 50%);
     opacity: 0.9;
     padding: 10rem 1rem 10rem 1rem;
+
+    @media only screen and (max-width: $breakpoint-large) {
+      max-height: fit-content;
+    }
   }
 
   &__inner {
@@ -23,6 +27,15 @@
     display: flex;
     gap: 10rem;
     padding: 10rem 1rem;
+
+    @media only screen and (max-width: $breakpoint-large) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media only screen and (max-width: $breakpoint-small) {
+      gap: 5rem;
+    }
   }
 
   &__left {
@@ -64,6 +77,10 @@
   &__img {
     width: 100%;
     transform: translate(-5.3rem, -5.3rem);
+
+    @media only screen and (max-width: $breakpoint-small) {
+      transform: translate(-1.5rem, -1.5rem);
+    }
   }
 }
 

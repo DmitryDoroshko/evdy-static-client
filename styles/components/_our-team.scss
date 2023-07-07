@@ -10,10 +10,26 @@
                   white 50%);
   padding-bottom: 25.8rem;
 
+  @media only screen and (max-width: $breakpoint-large) {
+    max-height: fit-content;
+  }
+
+  @media only screen and (max-width: $breakpoint-medium) {
+    padding-bottom: 8rem;
+  }
+
   &__inner {
+    @media only screen and (max-width: $breakpoint-large) {
+      margin-bottom: 3rem;
+    }
   }
 
   &__texts {
+    @media only screen and (max-width: $breakpoint-large) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__heading {
@@ -41,6 +57,11 @@
     display: flex;
     gap: 3rem;
     margin-bottom: 4rem;
+    justify-content: center;
+
+    @media only screen and (max-width: $breakpoint-large) {
+      flex-wrap: wrap;
+    }
   }
 
   &__card {
@@ -53,6 +74,10 @@
     border-radius: 1rem;
     text-align: center;
     padding: 3rem;
+
+    @media only screen and (max-width: $breakpoint-small) {
+      max-width: max-content;
+    }
   }
 
   &__img {
