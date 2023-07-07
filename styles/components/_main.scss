@@ -1,10 +1,14 @@
-@import "variables";
+@import "../abstracts/variables";
 
 // MAIN
 .main {
   background: url("../img/main/1.png") lightgray 50% / cover no-repeat;
   color: $color-white;
   max-height: 71.7rem;
+
+  @media only screen and (max-width: $breakpoint-large) {
+    max-height: 120rem;
+  }
 
   &__inner {
   }
@@ -17,14 +21,27 @@
     gap: 3rem;
   }
 
+  &__slider-btn-main {
+
+  }
+
   &__slider-btn {
     position: relative;
+
+    @media only screen and (max-width: $breakpoint-small) {
+      width: 3.5rem !important;
+      height: 3.5rem !important;
+    }
 
     & > img {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      @media only screen and (max-width: $breakpoint-small) {
+        max-width: 3.5rem;
+        width: 100%;
+      }
     }
 
     &--left {
@@ -38,6 +55,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media only screen and (max-width: $breakpoint-large) {
+      flex-direction: column;
+      padding: 5rem 0 0 0;
+    }
   }
 
   &__slider-texts {
@@ -54,6 +76,10 @@
     width: 100%;
     max-width: 37rem;
     margin-bottom: 2.5rem;
+
+    @media only screen and (max-width: $breakpoint-small) {
+      font-size: 3.5rem;
+    }
   }
 
   &__slider-text {
@@ -65,11 +91,19 @@
     font-weight: 400;
     line-height: normal;
     margin-bottom: 4rem;
+
+    @media only screen and (max-width: $breakpoint-small) {
+      font-size: 1.3rem;
+    }
   }
 
   &__slider-picture {
     max-width: 100%;
     height: 61.7rem;
+    
+    @media only screen and (max-width: $breakpoint-small) {
+      height: 30rem;
+    }
   }
 
   &__slider-img {

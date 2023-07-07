@@ -1,17 +1,30 @@
-@import "variables";
+@import "../abstracts/variables";
 
 .latest-news {
   margin-bottom: 10rem;
 
+  @media only screen and (max-width: $breakpoint-largest) {
+    padding: 0 1rem;
+  }
+
+  @media only screen and (max-width: $breakpoint-medium) {
+    text-align: center;
+  }
+
   &__inner {
+
   }
 
   &__top-text {
+    text-align: left;
+    @media only screen and (max-width: $breakpoint-medium) {
+      text-align: center;
+    }
   }
 
   &__heading {
     color: $color-black;
-    text-align: left;
+    text-align: inherit;
     font-size: 3rem;
     font-family: $font-main;
     font-style: normal;
@@ -31,10 +44,23 @@
     width: 100%;
     max-width: 57rem;
     margin-bottom: 3rem;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+      margin: 0 auto 3rem auto;
+    }
+
+    @media only screen and (max-width: $breakpoint-medium) {
+      font-size: 1.2rem;
+    }
   }
 
   &__items {
     display: flex;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__item {
@@ -45,6 +71,10 @@
     gap: 1rem;
     margin-bottom: 4rem;
     padding-bottom: 2.3rem;
+
+    @media only screen and (max-width: $breakpoint-medium) {
+      max-width: 75%;
+    }
   }
 
   &__picture {

@@ -1,4 +1,4 @@
-@import "variables";
+@import "../abstracts/variables";
 
 .shop-by-categories {
   width: 100%;
@@ -11,8 +11,15 @@
           black 50%);
   margin-bottom: 10rem;
 
+  @media only screen and (max-width: $breakpoint-small) {
+    max-height: fit-content;
+  }
+
   &__inner {
     padding: 10rem 1rem 0 1rem;
+    @media only screen and (max-width: $breakpoint-small) {
+      text-align: center;
+    }
   }
 
   &__heading {
@@ -40,6 +47,12 @@
   &__cards {
     display: flex;
     width: 100%;
+    
+    @media only screen and (max-width: $breakpoint-small) {
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
   }
 
   &__card {
@@ -47,10 +60,15 @@
     width: 33.333333%;
     height: auto;
     max-height: 43.1rem;
+    @media only screen and (max-width: $breakpoint-small) {
+      width: 80%;
+      max-height: max-content;
+    }
   }
 
   &__img {
     width: 100%;
+    display: block;
   }
 
   &__text {
