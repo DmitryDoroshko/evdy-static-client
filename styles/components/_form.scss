@@ -60,6 +60,17 @@
     padding: 1rem 1rem 10rem 1rem;
   }
 
+  &__heading {
+    display: inline-block;
+    color: $color-light-red;
+    font-family: $font-main;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
   &__input-white {
     width: 100%;
     max-width: 56.5rem;
@@ -87,7 +98,7 @@
   &__textarea-white {
     border-radius: 5px;
     width: 100%;
-    max-width: 77rem;
+    max-width: 56.5rem;
     height: 19rem;
     resize: none;
     padding: 1rem 3rem;
@@ -112,5 +123,6 @@
   }
 
   &__btn {
+
   }
 }
