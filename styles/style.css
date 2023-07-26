@@ -1985,6 +1985,84 @@ a {
   text-transform: uppercase;
 }
 
+.not-found-main {
+  background: #F6F6F6;
+  min-height: 50.1rem;
+  padding: 10rem 1rem 10rem 1rem;
+  display: grid;
+  place-content: center;
+}
+.not-found-main__sup-title {
+  text-align: center;
+}
+.not-found-main__sub-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.not-found-main__sup-title, .not-found-main__sub-title {
+  color: #ef3636;
+  font-family: "Barlow", sans-serif;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.not-found-main__text {
+  color: #989898;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 51.2rem;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+.not-found-main__input-wrapper {
+  position: relative;
+  max-width: 57rem;
+  width: 100%;
+  height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.not-found-main__input {
+  border-radius: 6px;
+  border: 1px solid #ef3636;
+  background: #fff;
+  width: 100%;
+  padding: 1.1rem 1.1rem 1.1rem 3rem;
+}
+.not-found-main__input::placeholder {
+  color: #989898;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.not-found-main__button {
+  cursor: pointer;
+}
+.not-found-main__icon {
+  position: absolute;
+  top: 1.4rem;
+  right: 3rem;
+}
+.not-found-main__redirects {
+  text-align: center;
+  color: #989898;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.not-found-main__redirect-link {
+  color: #ef3636;
+}
+
 .contact-us {
   position: relative;
   min-height: 60.2rem;
