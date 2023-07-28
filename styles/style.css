@@ -2728,5 +2728,46 @@ a {
   display: flex;
   justify-content: center;
 }
+.wishlist-empty__main {
+  background-color: #252525;
+  padding: 10rem 1rem 2rem 1rem;
+}
+.wishlist-empty__main-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.wishlist-empty__heading {
+  color: #ef3636;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 63rem;
+  width: 100%;
+}
+.wishlist-empty__text {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 62.8rem;
+  width: 100%;
+}
+.wishlist-empty__actions {
+  background-color: #F6F6F6;
+}
+.wishlist-empty__actions-inner {
+  padding: 2rem 1rem 10rem 1rem;
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=style.css.map */
