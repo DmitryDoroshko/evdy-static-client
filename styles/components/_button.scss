@@ -25,6 +25,11 @@
     background: transparent;
   }
 
+  &--transparent-red {
+    border: 1px solid $color-light-red;
+    background: transparent;
+  }
+
   &--slider {
     width: 1.2rem;
     height: 1.2rem;
