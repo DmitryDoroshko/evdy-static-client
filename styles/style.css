@@ -2770,8 +2770,224 @@ a {
   justify-content: center;
 }
 .shopping-cart-full {
-  background-color: #F6F6F6;
+  background-color: #fff;
   padding: 10rem 1rem;
+}
+.shopping-cart-full__heading {
+  color: #000;
+  font-family: "Barlow", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.shopping-cart-full__content {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 9.4rem;
+}
+@media only screen and (max-width: 62.5em) {
+  .shopping-cart-full__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.shopping-cart-full__content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.shopping-cart-full__shoe-item {
+  display: flex;
+  gap: 9.1rem;
+  align-items: center;
+}
+@media only screen and (max-width: 37.5em) {
+  .shopping-cart-full__shoe-item {
+    gap: 2rem;
+  }
+}
+.shopping-cart-full__shoe-item-left {
+  display: flex;
+  gap: 2.6rem;
+  align-items: center;
+}
+@media only screen and (max-width: 25em) {
+  .shopping-cart-full__shoe-item-left {
+    gap: 1rem;
+  }
+}
+.shopping-cart-full__remove-icon {
+  cursor: pointer;
+  width: 1.8rem;
+  height: 1.8rem;
+  flex-shrink: 0;
+}
+.shopping-cart-full__picture {
+  flex: 1 0 11.6rem;
+}
+.shopping-cart-full__img {
+  width: 100%;
+}
+.shopping-cart-full__shoe-name {
+  color: #000;
+  font-family: "Barlow", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 17.9rem;
+  width: 100%;
+}
+@media only screen and (max-width: 25em) {
+  .shopping-cart-full__shoe-name {
+    font-size: 1.5rem;
+  }
+}
+.shopping-cart-full__shoe-item-actions-middle {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ef3636;
+  border-radius: 3px;
+}
+.shopping-cart-full__remove, .shopping-cart-full__add {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 1.6rem;
+}
+.shopping-cart-full__count {
+  color: #000;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.shopping-cart-full__shoe-item-price {
+  color: #989898;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.shopping-cart-full__content-right {
+  width: 100%;
+  max-width: 37rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.shopping-cart-full__content-right-main {
+  background: #252525;
+  color: #fff;
+  padding: 3rem;
+}
+.shopping-cart-full__content-right-heading {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 0.8rem;
+}
+.shopping-cart-full__content-right--border-bottom {
+  border-bottom: 1px solid #989898;
+  margin-bottom: 8px;
+}
+.shopping-cart-full__content-right-flex {
+  padding-bottom: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopping-cart-full__content-right-text-heading {
+  color: #989898;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.shopping-cart-full__content-right-text-heading--1, .shopping-cart-full__content-right-text-heading--2 {
+  font-size: 1.2rem;
+}
+.shopping-cart-full__content-right-price {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.shopping-cart-full .shopping-cart-full__content-right-actions {
+  display: flex;
+  gap: 3rem;
+}
+.shopping-cart-full .shopping-cart-full__proceed-to-checkout-btn {
+  padding: 1rem;
+}
+.shopping-cart-full .shopping-cart-full__continue-shopping-btn {
+  padding: 1rem;
+}
+
+.discount {
+  padding: 0 1rem 10rem 1rem;
+}
+.discount__heading {
+  color: #000;
+  font-family: "Barlow", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.discount__text {
+  width: 100%;
+  max-width: 40rem;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 3rem;
+}
+.discount__form {
+  display: flex;
+  gap: 3rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .discount__form {
+    flex-direction: column;
+  }
+}
+.discount__form-input {
+  padding: 1rem 3rem;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #ef3636;
+}
+.discount__form-input::placeholder {
+  color: #989898;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .wishlist-empty__main {
   background-color: #252525;
