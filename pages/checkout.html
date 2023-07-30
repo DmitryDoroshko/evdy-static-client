@@ -257,6 +257,132 @@
 </section>
 <!-- MAIN SECONDARY -->
 
+<main class="checkout">
+  <div class="container">
+    <div class="checkout__inner">
+      <h2 class="checkout__heading-main">Billing Details</h2>
+      <div class="checkout__content">
+
+        <div class="checkout__left">
+          <div class="checkout__action checkout__action--name">
+            <label for="name" class="checkout__label">Name*</label>
+            <input type="text" id="name" class="checkout__input">
+          </div>
+
+          <div class="checkout__action checkout__action--surname">
+            <label for="surname" class="checkout__label">Surname*</label>
+            <input type="text" id="surname" class="checkout__input">
+          </div>
+
+          <div class="checkout__action checkout__action--company-name">
+            <label for="company-name" class="checkout__label">Company Name</label>
+            <input type="text" id="company-name" class="checkout__input">
+          </div>
+
+          <div class="checkout__action checkout__action--country">
+            <label for="country" class="checkout__label">Country*</label>
+            <input type="text" id="country" class="checkout__input">
+          </div>
+
+          <div class="checkout__action checkout__action--city">
+            <label for="city" class="checkout__label">City*</label>
+            <input type="text" id="city" class="checkout__input">
+          </div>
+
+          <div class="checkout__action checkout__action--address">
+            <label for="address" class="checkout__label">Address*</label>
+            <input type="text" id="address" class="checkout__input">
+          </div>
+
+          <div class="checkout__action checkout__action--phone-number">
+            <label for="phone-number" class="checkout__label">Phone Number</label>
+            <input type="tel" id="phone-number" class="checkout__input">
+          </div>
+
+          <div class="checkout__action checkout__action--email">
+            <label for="email" class="checkout__label">E-Mail*</label>
+            <input type="email" id="email" class="checkout__input">
+          </div>
+
+          <div class="checkout__action checkout__action--zip">
+            <label for="zip" class="checkout__label">Zip code / Post code*</label>
+            <input type="number" id="zip" class="checkout__input">
+          </div>
+        </div>
+
+        <div class="checkout__right">
+
+          <div class="checkout__totals totals">
+            <div class="totals__content-right-main">
+
+              <h3 class="totals__content-right-sub-heading totals__content-right--border-bottom">products</h3>
+
+              <div class="totals__content-right-flex">
+                <span class="totals__content-right-heading">Jordan Delta 3 SP</span>
+                <span class="totals__content-right-price">$110</span>
+              </div>
+
+              <div class="totals__content-right-flex">
+                <span class="totals__content-right-heading">Nike air force 1 ‘07</span>
+                <span class="totals__content-right-price">$114</span>
+              </div>
+
+              <div class="totals__content-right-flex totals__content-right--border-bottom">
+                <span class="totals__content-right-text-heading totals__content-right-text-heading--1">Subtotals:</span>
+                <span class="totals__content-right-price">$338</span>
+              </div>
+
+              <h3 class="totals__content-right-heading">
+                Shipping</h3>
+
+              <div class="totals__content-right-flex totals__content-right--border-bottom">
+                <span class="totals__content-right-text-heading totals__content-right-text-heading--2">Flat Rate: $15</span>
+              </div>
+
+              <div class="totals__content-right-flex">
+                <h3 class="totals__content-right-heading">
+                  Total:</h3>
+                <span class="totals__content-right-price">$353</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout__payment">
+            <div class="checkout__radio-wrapper">
+              <input type="radio" class="checkout__radio-input" id="direct-bank-transfer" name="payment">
+              <label for="direct-bank-transfer" class="checkout__radio-label">
+                <span class="checkout__radio-button"></span> Direct Bank Transfer</label>
+            </div>
+
+            <p class="checkout__text">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+
+            <div class="checkout__radio-wrapper">
+              <input type="radio" class="checkout__radio-input" id="check-payment" name="payment">
+              <label for="check-payment" class="checkout__radio-label">
+                <span class="checkout__radio-button"></span>
+                Check Payment</label>
+            </div>
+
+            <div class="checkout__radio-wrapper">
+              <input type="radio" class="checkout__radio-input" id="cash-on-delivery" name="payment">
+              <label for="cash-on-delivery" class="checkout__radio-label">
+                <span class="checkout__radio-button"></span>Cash on Delivery</label>
+            </div>
+
+          </div>
+
+          <div class="checkout__payment-actions">
+            <button class="btn btn--grey checkout__place-order-btn">Place order</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+<!-- CHECKOUT MAIN -->
+
 <main class="checkout-empty">
   <div class="checkout-empty__main">
     <div class="container">
