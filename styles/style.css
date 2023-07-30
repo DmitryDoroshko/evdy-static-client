@@ -3179,6 +3179,133 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+.wishlist-full {
+  padding: 10rem 1rem;
+}
+.wishlist-full__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: scroll;
+}
+.wishlist-full__table {
+  border: none;
+  border-collapse: collapse;
+  margin-bottom: 4rem;
+}
+.wishlist-full__table > * {
+  border: none;
+}
+.wishlist-full__table tr:nth-child(1) {
+  margin-bottom: 4rem;
+  background: #252525;
+  color: #fff;
+}
+.wishlist-full__table th {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.wishlist-full__table th:nth-child(1) {
+  text-align: left;
+  width: 56.6rem;
+  padding: 1.2rem 3rem;
+}
+.wishlist-full__table th:nth-child(2) {
+  width: 11rem;
+  padding: 1.2rem 3rem;
+}
+.wishlist-full__table th:nth-child(3) {
+  width: 42rem;
+  padding: 1.2rem 3rem;
+}
+.wishlist-full__item td {
+  text-align: center;
+  padding-top: 4rem;
+}
+.wishlist-full__item td:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .wishlist-full__item td:nth-child(1) {
+    flex-direction: column;
+  }
+}
+.wishlist-full__item td:nth-child(2) {
+  vertical-align: middle;
+}
+.wishlist-full__item td:nth-child(3) {
+  vertical-align: middle;
+}
+.wishlist-full__item td:nth-child(4) {
+  width: 20rem;
+  vertical-align: middle;
+}
+.wishlist-full__picture {
+  width: 11.6rem;
+}
+.wishlist-full__img {
+  width: 100%;
+}
+.wishlist-full__shoe-name {
+  color: #000;
+  font-family: "Barlow", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.wishlist-full__price {
+  color: #000;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.wishlist-full__price--out-ouf-stock {
+  color: #989898;
+}
+.wishlist-full__status {
+  color: #390;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.wishlist-full__status--out-of-stock {
+  color: #ef3636;
+}
+@media only screen and (max-width: 56.25em) {
+  .wishlist-full__btn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .wishlist-full__btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media only screen and (max-width: 25em) {
+  .wishlist-full__btn {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
 .wishlist-empty__main {
   background-color: #252525;
   padding: 10rem 1rem 2rem 1rem;
